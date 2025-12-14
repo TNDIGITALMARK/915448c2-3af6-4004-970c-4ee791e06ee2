@@ -229,6 +229,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  text-align: center;
 }
 
 /* ==============================================
@@ -243,6 +244,7 @@ h1, h2, h3, h4, h5, h6 {
   color: hsl(var(--foreground));
   line-height: 1.2;
   margin: 0;
+  text-align: center;
 }
 
 h1 {
@@ -276,6 +278,7 @@ p {
   font-size: 1rem;
   line-height: 1.7;
   color: hsl(var(--foreground));
+  text-align: center;
 }
 
 a {
