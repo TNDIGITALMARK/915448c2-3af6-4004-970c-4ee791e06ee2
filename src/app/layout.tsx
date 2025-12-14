@@ -19,8 +19,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Elegant Flora Boutique",
-  description: "Beautiful AI-powered website creation platform",
+  title: "House Of Lions MMA | Train With Pride, Fight With Purpose",
+  description: "Elite MMA training in a welcoming family atmosphere. Expert coaching for beginners through advanced fighters. Striking, grappling, fitness, and kids programs.",
 };
 
 export default function RootLayout({
@@ -40,8 +40,8 @@ export default function RootLayout({
           <ZyloProvider>
             <ThemeProvider
               attribute="class"
-              defaultTheme="light"
-              enableSystem
+              defaultTheme="dark"
+              enableSystem={false}
               disableTransitionOnChange
             >
               <TooltipProvider>
